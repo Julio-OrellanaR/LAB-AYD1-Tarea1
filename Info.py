@@ -17,7 +17,7 @@ def resta():
     numero2 = request.form['numero2']
     op1 = atoi(numero1) - atoi(numero2)
 
-    resp = {"Resultado de la resta es: " : op1}
+    resp = {"Resultado de operacion resta es: " : op1}
 
     return jsonify(resp)
 
